@@ -1,2 +1,2 @@
-# jsonstore
-Store JSON object and use as api.
+# JSO Store Online
+Store JSON object online and use as api.
