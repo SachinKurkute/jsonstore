@@ -1,0 +1,91 @@
+
+body,html{
+    background-color: #f1f1f1;
+}
+.navbar {
+    margin-bottom: 0;
+    background-color: #e7e7e7;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    border-bottom: 1px solid #bababa;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    box-shadow: 0px 0px 8px 1px #acacac;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #8b8b8b !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #f4511e !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+.manage-style {margin-top: 50px;}
+.row.content {height: 450px}
+.sidenav {
+padding-top: 20px;
+background-color: #f1f1f1;
+}
+
+footer {
+background-color: #555;
+color: white;
+padding: 15px;
+}
+
+@media screen and (max-width: 767px) {
+.sidenav {
+    height: auto;
+    padding: 15px;
+}
+.row.content {height:auto;} 
+}
+
+.editor-wrap {
+    position: relative;
+    height: 330px;
+}
+
+#editor { 
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    border: 5px solid #ffffff;
+    height: 300px;
+    box-shadow: 0px 0px 1px 1px #636363;
+}
+textarea {
+    resize: none;
+}
+.footer-custom{
+    background-color: #e7e7e7;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    padding: 0px;
+    color: #c7c1c1;
+    border-top: 1px solid #d1d1d1;
+}
+.float-right{
+    float: right;
+}
+.editor-action-icon{
+    margin-left: 10px;
+    box-shadow: 0px 0px 1px 1px #909090;
+    color: #bfb9b9;
+    padding: 2px 5px;
+    border-radius: 2px;
+    cursor: pointer;
+}
